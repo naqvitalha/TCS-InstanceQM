@@ -1,6 +1,6 @@
 {
   "name": "tcs-instanceqm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "C# like Task Completion Source for JS and an Object pool / queue",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

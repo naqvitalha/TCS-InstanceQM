@@ -1,7 +1,7 @@
 import { TaskCompletionSource } from "./tasks/TaskCompletionSource";
 import InstanceQM from "./InstanceQM";
 
-export = {
+export {
     TaskCompletionSource,
     InstanceQM,
 };
