@@ -1,0 +1,20 @@
+{
+  "name": "tcs-instanceqm",
+  "version": "1.0.0",
+  "description": "C# like Task Completion Source for JS and an Object pool / queue",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tslint 'src/**/*.{ts,tsx}' && tsc",
+    "release": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naqvitalha/TCS-InstanceQM.git"
+  },
+  "author": "naqvitalha <naqvitalha@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naqvitalha/TCS-InstanceQM/issues"
+  },
+  "homepage": "https://github.com/naqvitalha/TCS-InstanceQM#readme"
+}
